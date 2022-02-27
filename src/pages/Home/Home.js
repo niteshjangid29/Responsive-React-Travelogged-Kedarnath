@@ -16,23 +16,6 @@ const Home = () => {
         setLine()
     }
 
-    // let counts = setInterval(updated);
-    // let upto = 0;
-    // function updated() {
-    //     var count = document.getElementById("counter");
-    //     count.innerHTML = ++upto;
-    //     if (upto === 1000) {
-    //         clearInterval(counts);
-    //     }
-    // }
-
-    // let C = document.getElementsByClassName('counter');
-    // document.ready(function(){
-    //    C.counterUp({
-    //         delay:10,
-    //         time: 1200
-    //     })
-    // })
 
     return (
         <div>
@@ -65,7 +48,7 @@ const Home = () => {
 
                         <div className="step_content">
                             <div className="step_img_box">
-                                <img loading="lazy" src="./images/day0.jpg"
+                                <img loading="lazy" src="./images/day0.jpg" draggable="false"
                                     alt="Mountain" data-width="1959" data-height="1306"
                                     className="steps-01__img  js-lightbox-single-image " />
                             </div>
@@ -105,7 +88,7 @@ const Home = () => {
                             </div>
 
                             <div className="step_img_box">
-                                <img loading="lazy" src="./images/day1.jpg"
+                                <img loading="lazy" src="./images/day1.jpg" draggable="false"
                                     alt="Mountain" data-width="1959" data-height="1306"
                                     className="steps-01__img  js-lightbox-single-image " />
                             </div>
@@ -117,7 +100,7 @@ const Home = () => {
 
                         <div className="step_content">
                             <div className="step_img_box">
-                                <img loading="lazy" src="./images/day2.jpg"
+                                <img loading="lazy" src="./images/day2.jpg" draggable="false"
                                     alt="Mountain" data-width="1959" data-height="1306"
                                     className="steps-01__img  js-lightbox-single-image " />
                             </div>
@@ -156,7 +139,7 @@ const Home = () => {
                             </div>
 
                             <div className="step_img_box">
-                                <img loading="lazy" src="./images/day3.jpg"
+                                <img loading="lazy" src="./images/day3.jpg" draggable="false"
                                     alt="Mountain" data-width="1959" data-height="1306"
                                     className="steps-01__img  js-lightbox-single-image " />
                             </div>
@@ -168,7 +151,7 @@ const Home = () => {
 
                         <div className="step_content">
                             <div className="step_img_box">
-                                <img loading="lazy" src="./images/day4.jpg"
+                                <img loading="lazy" src="./images/day4.jpg" draggable="false"
                                     alt="Mountain" data-width="1959" data-height="1306"
                                     className="steps-01__img  js-lightbox-single-image " />
                             </div>
@@ -191,7 +174,7 @@ const Home = () => {
 
                     <li className="step_item">
                         <div className="final_step_number">
-                            <img src='./images/heart-solid.svg' alt='heart' />
+                            <img src='./images/heart-solid.svg' alt='heart' draggable="false" />
                         </div>
                     </li>
                 </ul>
