@@ -1,0 +1,42 @@
+.error{
+    background: #f5b29c;
+    padding: 100px 0 50px 0;
+    text-align: center;
+}
+.error img{
+    display: flex;  
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+h1{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.go_to_home{
+    text-decoration: none;
+}
+.go_to_home button{
+    padding: 10px 18px;
+    color: #f15a29;
+    background: #fff;
+    border: 2px solid #f15a29;
+    font-size: 14px;
+    border-radius: 5px;
+    font-weight: 700;
+    transition: 0.5s;
+}
+.go_to_home button:hover{
+    transform: translateY(-3px);
+    background: #f15a29;
+    color: #fff;
+}
+
+@media only screen and (max-width: 768px){
+    .error img{
+        width: 100%;
+        padding: 0 25px;
+    }
+}
