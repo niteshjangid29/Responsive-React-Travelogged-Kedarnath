@@ -243,3 +243,20 @@
 .contact-details img {
   width: 40px;
 }
+
+
+@media only screen and (max-width: 991px) {
+  .contact-details .contact-content {
+    text-align: center;
+  }
+  .contact-details .contact-content .c-c-1 {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  .contact-details .contact-content .c-c-1 img {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+}

@@ -237,7 +237,7 @@ const Home = () => {
                             <ReactVisibilitySensor partialVisibility offset={{ top: 100 }}>
                                 {({ isVisible }) => (
                                     <span className='counter'>
-                                        {isVisible ? <CountUp start={0} end={500} duration={1.5} /> : 500}
+                                        {isVisible ? <CountUp start={0} end={500} duration={1} /> : 500}
                                     </span>
                                 )}
                             </ReactVisibilitySensor>
@@ -250,7 +250,7 @@ const Home = () => {
                             <ReactVisibilitySensor partialVisibility offset={{ top: 100 }}>
                                 {({ isVisible }) => (
                                     <span className='counter'>
-                                        {isVisible ? <CountUp start={0} end={120} duration={1.5} /> : 120}
+                                        {isVisible ? <CountUp start={0} end={120} duration={1} /> : 120}
                                     </span>
                                 )}
                             </ReactVisibilitySensor>
@@ -263,7 +263,7 @@ const Home = () => {
                             <ReactVisibilitySensor partialVisibility offset={{ top: 100 }}>
                                 {({ isVisible }) => (
                                     <span className='counter'>
-                                        {isVisible ? <CountUp start={0} end={2000} duration={1.5} /> : 2000}
+                                        {isVisible ? <CountUp start={0} end={2000} duration={1} /> : 2000}
                                     </span>
                                 )}
                             </ReactVisibilitySensor>
